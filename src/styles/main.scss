@@ -31,6 +31,36 @@ header {
   }
 }
 
-section {
- padding: 20px;
+.selector {
+  display: flex;
+  margin-top: 30px;
+  padding: 0 20px;
+
+  .selector-label,
+  .selector-selected {
+    flex: 1;
+  }
+
+  .selector-choiches {
+    flex: 2;
+  }
+
+  label {
+    margin-right: 15px;
+
+    input {
+      margin-right: 10px;
+    }
+  }
+
+  .selector-selected {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+.results {
+  margin-top: 30px;
+  font-size: 22px;
 }
